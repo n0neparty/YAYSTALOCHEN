@@ -1,7 +1,6 @@
-      services:
-        - type: web
-          name: your-project-name
-          env: php
-          plan: free
-          buildCommand: ""
-          startCommand: ""
+   services:
+     - type: web
+       name: your-project-name
+       env: docker
+       plan: free
+       dockerfilePath: Dockerfile
